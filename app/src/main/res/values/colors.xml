@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lightGray">#D2D7DC</color>
+    <color name="staticWrite">#CAE8E6</color>
+    <color name="gray">#989CA0</color>
+
+    <color name="blue">#2196F3</color>
+    <color name="darkerBlue">#16639F</color>
+    <color name="green">#009688</color>
+    <color name="darkerGreen">#007065</color>
+
+    <color name="purple">#5C6998</color>
+    <color name="darkerPurple">#303A60</color>
+
+
+
+    <color name="iconColor">#2D007396</color>
+
+</resources>

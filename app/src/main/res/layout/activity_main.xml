@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/usthb"
+        app:layout_constraintBottom_toTopOf="@+id/faculte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/faculte"
+        style="@style/SplashTitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty of Electrical Engineering"
+        app:layout_constraintBottom_toTopOf="@+id/annee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/annee"
+        style="@style/SplashTitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESE M2 2023/2024"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="40dp"/>
+
+    <View
+        android:id="@+id/INTERNET"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toTopOf="@+id/line1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:src="@drawable/internet1"
+        app:layout_constraintBottom_toBottomOf="@+id/INTERNET"
+        app:layout_constraintEnd_toEndOf="@+id/INTERNET"
+        app:layout_constraintStart_toStartOf="@+id/INTERNET"
+        app:layout_constraintTop_toTopOf="@+id/INTERNET" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/INTERNET_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ripple_effect"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/INTERNET"
+        app:layout_constraintEnd_toEndOf="@+id/INTERNET"
+        app:layout_constraintStart_toStartOf="@+id/INTERNET"
+        app:layout_constraintTop_toTopOf="@+id/INTERNET"
+        app:shapeAppearanceOverlay="@style/Circular" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="390dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/BLE"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/ic_ble"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintBottom_toBottomOf="@+id/BLE"
+        app:layout_constraintEnd_toEndOf="@+id/BLE"
+        app:layout_constraintStart_toStartOf="@+id/BLE"
+        app:layout_constraintTop_toTopOf="@+id/BLE" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/BLE_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ripple_effect"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/BLE"
+        app:layout_constraintEnd_toEndOf="@+id/BLE"
+        app:layout_constraintStart_toStartOf="@+id/BLE"
+        app:layout_constraintTop_toTopOf="@+id/BLE"
+        app:shapeAppearanceOverlay="@style/Circular" />
+
+
+
+    <View
+        android:id="@+id/WIFI"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BLE" />
+
+    <ImageView
+        android:id="@+id/WIFI_IMAGE"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/wifi"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintBottom_toBottomOf="@+id/WIFI"
+        app:layout_constraintEnd_toEndOf="@+id/WIFI"
+        app:layout_constraintStart_toStartOf="@+id/WIFI"
+        app:layout_constraintTop_toTopOf="@+id/WIFI" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/WIFI_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ripple_effect"
+        android:backgroundTint="@color/purple"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/WIFI"
+        app:layout_constraintEnd_toEndOf="@+id/WIFI"
+        app:layout_constraintStart_toStartOf="@+id/WIFI"
+        app:layout_constraintTop_toTopOf="@+id/WIFI"
+        app:shapeAppearanceOverlay="@style/Circular"/>
+
+
+
+
+    <!--::::::::   EXPLOSIONS    :::::::::-->
+       <View
+           android:id="@+id/INTERNETEXPLOSION"
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:background="@drawable/rounded_corner"
+           android:backgroundTint="@color/green"
+           android:visibility="invisible"
+           app:layout_constraintBottom_toBottomOf="@+id/INTERNET"
+           app:layout_constraintEnd_toEndOf="@+id/INTERNET"
+           app:layout_constraintStart_toStartOf="@+id/INTERNET"
+           app:layout_constraintTop_toTopOf="@+id/INTERNET" />
+       <View
+           android:id="@+id/BLEEXPLOSION"
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:background="@drawable/rounded_corner"
+           android:backgroundTint="@color/blue"
+           android:visibility="invisible"
+           app:layout_constraintBottom_toBottomOf="@+id/BLE"
+           app:layout_constraintEnd_toEndOf="@+id/BLE"
+           app:layout_constraintStart_toStartOf="@+id/BLE"
+           app:layout_constraintTop_toTopOf="@+id/BLE" />
+       <View
+           android:id="@+id/WIFIEXPLOSION"
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:background="@drawable/rounded_corner"
+           android:backgroundTint="@color/purple"
+           android:visibility="invisible"
+           app:layout_constraintBottom_toBottomOf="@+id/WIFI"
+           app:layout_constraintEnd_toEndOf="@+id/WIFI"
+           app:layout_constraintStart_toStartOf="@+id/WIFI"
+           app:layout_constraintTop_toTopOf="@+id/WIFI" />
+
+
+       <View
+           android:id="@+id/cover"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+   </androidx.constraintlayout.widget.ConstraintLayout>

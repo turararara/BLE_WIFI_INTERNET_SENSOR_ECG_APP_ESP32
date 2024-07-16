@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PFE</string>
+
+    <!--splash page-->
+    <string name="splash">splash</string>
+    <string name="splashT">Heart Monitor device</string>
+    <string name="date">2023/2024</string>
+    <string name="speed">500</string>
+
+    <!--home page-->
+    <string name="faculte">Faculté Génier Électrique</string>
+    <string name="annee">ESE M2</string>
+
+    <!--internet page-->
+    <string name="dashboard">DASHBOARD</string>
+    <string name="internet">INTERNET</string>
+
+    <!--ble page-->
+    <string name="ble">BLE</string>
+
+
+</resources>

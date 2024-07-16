@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "777125683119",
+    "firebase_url": "https://esp32-ecg-4a995-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "esp32-ecg-4a995",
+    "storage_bucket": "esp32-ecg-4a995.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777125683119:android:778837c18c1aa4598e195a",
+        "android_client_info": {
+          "package_name": "com.example.httppp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8kHYajLd96w7xsP9Izq8Z1FypBBcF0wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777125683119:android:935f4bca1cd852b08e195a",
+        "android_client_info": {
+          "package_name": "com.example.pfe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8kHYajLd96w7xsP9Izq8Z1FypBBcF0wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777125683119:android:9cb001815341b7fc8e195a",
+        "android_client_info": {
+          "package_name": "com.example.pfe_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8kHYajLd96w7xsP9Izq8Z1FypBBcF0wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

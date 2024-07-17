@@ -14,8 +14,8 @@
 #define PASSWORD   "12345678"
 
 //Firebase
-#define API_KEY "AIzaSyAdIxDZtTHVJM9GoPRuTadcpG0Y5lgk3Zg"
-#define DATABASE_URL "https://esp32-ecg-4a995-default-rtdb.europe-west1.firebasedatabase.app/"
+#define API_KEY ""
+#define DATABASE_URL ""
 #define ECG_DATA_PATH "sensors/ecg"
 #define SENSORS_DATA_PATH "sensors/other"
 
